@@ -6,12 +6,90 @@
   <link href="./css/style.css" rel="stylesheet">
   <!-- Roboto font -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
-<body>
-
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-
+<body class="bg-black">
+  <!-- Main Start -->
+  <main class="flex">
+    <!-- Logo Section -->
+    <div class="flex items-center justify-center basis-1/2 h-screen">
+      <svg viewBox="0 0 24 24" aria-hidden="true" fill  class="max-h-logo">
+        <g><path fill="#E7E9EA"
+          d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g>
+      </svg>
+    </div>
+    <!-- Login Section -->
+    <div class="flex flex-col items-start justify-center basis-1/2 h-screen p-10">
+      <!-- First header -->
+      <h1 class="font-bold text-6xl my-12">Happening now</h1>
+      <!-- Second header -->
+      <h3 class="font-bold text-4xl">Join today.</h3>
+      <!-- Sign-up buttons -->
+      <div class="flex flex-col items-center justify-center gap-4 mt-8">
+        <!-- Google signup -->
+        <div class="w-72">
+          <a href="#" class="flex items-center justify-center gap-2 bg-white rounded-3xl py-2">
+            <!-- Google Logo -->
+            <img src="../img/g-logo.png" alt="" class="h-5">
+            <!-- Sign-up -->
+            <p class="text-google font-medium">
+              Sign up with Google
+            </p>
+          </a>
+        </div>
+        <!-- Apple Signup -->
+        <div class="w-72">
+          <a href="#" class="flex items-center justify-center gap-2 bg-white rounded-3xl hover:bg-tw-white-hover py-2">
+            <!-- Apple Logo -->
+            <div class="h-6 w-6">
+              <i class="fa-brands fa-apple text-2xl text-black"></i>
+            </div>
+            <!-- Sign-up -->
+            <p class="text-black font-medium">
+              Sign up with Apple
+            </p>
+          </a>
+        </div>
+      </div>
+      <!-- Or section -->
+      <div class="flex items-center gap-2 h-10">
+        <div class="bg-hr h-400 w-32"></div>
+        <p class="text-bg-tw-dark-grey font-light">or</p>
+        <div class="bg-hr h-400 w-32"></div>
+      </div>
+      <!-- Create Account -->
+      <div class="flex flex-col items-center justify-center gap-4">
+        <div class="w-72">
+          <a href="#" class="flex items-center justify-center gap-2 bg-tw-blue rounded-3xl hover:bg-tw-blue-hover py-2">
+            <!-- Sign-up -->
+            <p class="text-tw-white font-bold">
+              Create account
+            </p>
+          </a>
+        </div>
+      </div>
+      <!-- Policies -->
+      <div class="max-w-72 my-2">
+        <p class="text-policy text-tw-dark-grey">By signing up, you agree to the <a href="#" class="!text-tw-blue hover:underline">Terms of Service</a> and <a href="#" class="!text-tw-blue hover:underline">Privacy Policy</a>, including <a href="#" class="!text-tw-blue hover:underline">Cookie Use.</a></p>
+      </div>
+      <!-- Already have an account -->
+      <h4 class="text-tw-white font-bold mt-10">
+        Already have an account?
+      </h4>
+      <!-- sign in button -->
+      <div class="flex flex-col items-center justify-center gap-4 border-solid border-2 border-google rounded-3xl mt-5">
+        <div class="w-72">
+          <a href="#" class="flex items-center justify-center gap-2 bg-transparent hover:bg-tw-blue-hover-2 rounded-3xl py-2">
+            <!-- Sign-in -->
+            <p class="text-tw-blue font-semibold">
+              Sign in
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
