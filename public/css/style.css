@@ -540,26 +540,19 @@ html {
   --tw-backdrop-sepia:  ;
 }
 
-.container {
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
+.link {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(83 100 113 / var(--tw-text-opacity));
 }
 
-@media (min-width: 517) {
-  .container {
-    max-width: 517;
-  }
+.link:hover {
+  text-decoration-line: underline;
 }
 
-@media (min-width: 999px) {
-  .container {
-    max-width: 999px;
-  }
-}
-
-.m-10 {
-  margin: 2.5rem;
+.m-8 {
+  margin: 2rem;
 }
 
 .my-12 {
@@ -572,11 +565,6 @@ html {
   margin-bottom: 0.5rem;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -587,10 +575,6 @@ html {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.ml-10 {
-  margin-left: 2.5rem;
 }
 
 .flex {
@@ -621,14 +605,6 @@ html {
   height: 100vh;
 }
 
-.h-full {
-  height: 100%;
-}
-
-.max-h-logo {
-  max-height: 23.75rem;
-}
-
 .w-12 {
   width: 3rem;
 }
@@ -645,32 +621,12 @@ html {
   width: 18rem;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .w-screen {
   width: 100vw;
 }
 
-.w-16 {
-  width: 4rem;
-}
-
-.w-10 {
-  width: 2.5rem;
-}
-
-.w-64 {
-  width: 16rem;
-}
-
 .max-w-72 {
   max-width: 18rem;
-}
-
-.basis-1\/2 {
-  flex-basis: 50%;
 }
 
 .basis-1 {
@@ -681,16 +637,16 @@ html {
   flex-direction: column;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .items-start {
   align-items: flex-start;
 }
 
 .items-center {
   align-items: center;
-}
-
-.justify-start {
-  justify-content: flex-start;
 }
 
 .justify-center {
@@ -767,15 +723,6 @@ html {
   font-size: 11px;
 }
 
-.text-6xl {
-  font-size: 4rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -836,7 +783,7 @@ html {
   text-decoration-line: underline;
 }
 
-@media (min-width: 517) {
+@media (min-width: 517px) {
   .tablet\:text-4xl {
     font-size: 2rem;
   }
@@ -847,36 +794,16 @@ html {
 }
 
 @media (min-width: 999px) {
-  .laptop\:m-0 {
-    margin: 0px;
-  }
-
   .laptop\:h-full {
     height: 100%;
-  }
-
-  .laptop\:h-screen {
-    height: 100vh;
   }
 
   .laptop\:h-logo {
     height: 23.75rem;
   }
 
-  .laptop\:\!h-logo {
-    height: 23.75rem !important;
-  }
-
   .laptop\:max-h-logo {
     max-height: 23.75rem;
-  }
-
-  .laptop\:w-screen {
-    width: 100vw;
-  }
-
-  .laptop\:w-full {
-    width: 100%;
   }
 
   .laptop\:w-logo {
@@ -903,19 +830,11 @@ html {
     justify-content: center;
   }
 
-  .laptop\:p-10 {
-    padding: 2.5rem;
-  }
-
   .laptop\:p-0 {
     padding: 0px;
   }
 
-  .laptop\:text-4xl {
-    font-size: 2rem;
-  }
-
-  .laptop\:text-6xl {
-    font-size: 4rem;
+  .laptop\:p-10 {
+    padding: 2.5rem;
   }
 }

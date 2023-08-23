@@ -8,3 +8,9 @@
     @apply text-tw-white;
   }
 }
+
+@layer components {
+  .link {
+    @apply text-tw-dark-grey hover:underline text-sm;
+  }
+}

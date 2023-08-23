@@ -6,8 +6,7 @@ module.exports = {
       center: true,
     },
     screens: {
-      'tablet': '517',
-
+      'tablet': '517px',
       'laptop': '999px',
     },
 
