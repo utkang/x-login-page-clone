@@ -38,8 +38,8 @@ module.exports = {
 
       height: {
         '400': '1px',
-        'aks': '90vh',
-        'aks2': '93vh',
+        'xlaptop': '90vh',
+        'xdesktop': '93vh',
       },
       width: {
         '400': '1px',

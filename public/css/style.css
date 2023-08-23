@@ -812,16 +812,16 @@ html {
 }
 
 @media (min-width: 999px) {
-  .laptop\:h-aks {
-    height: 90vh;
-  }
-
   .laptop\:h-full {
     height: 100%;
   }
 
   .laptop\:h-logo {
     height: 23.75rem;
+  }
+
+  .laptop\:h-xlaptop {
+    height: 90vh;
   }
 
   .laptop\:max-h-logo {
@@ -862,7 +862,7 @@ html {
 }
 
 @media (min-width: 1622px) {
-  .desktop\:h-aks2 {
+  .desktop\:h-xdesktop {
     height: 93vh;
   }
 }
