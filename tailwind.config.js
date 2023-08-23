@@ -8,6 +8,7 @@ module.exports = {
     screens: {
       'tablet': '517px',
       'laptop': '999px',
+      'desktop': '1622px',
     },
 
     extend: {
@@ -30,11 +31,15 @@ module.exports = {
 
       spacing: {
         logo: '23.75rem',
+        82: '20.5rem',
+        120: '28rem',
         128: '32rem',
       },
 
       height: {
         '400': '1px',
+        'aks': '90vh',
+        'aks2': '93vh',
       },
       width: {
         '400': '1px',
