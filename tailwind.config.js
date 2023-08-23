@@ -8,7 +8,7 @@ module.exports = {
     screens: {
       'tablet': '517px',
       'laptop': '999px',
-      'desktop': '1622px',
+      'desktop': '1920px',
     },
 
     extend: {
@@ -38,8 +38,8 @@ module.exports = {
 
       height: {
         '400': '1px',
-        'xlaptop': '90vh',
-        'xdesktop': '93vh',
+        'xlaptop': '88vh',
+        'xdesktop': '92vh',
       },
       width: {
         '400': '1px',

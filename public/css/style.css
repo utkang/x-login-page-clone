@@ -551,8 +551,9 @@ html {
   text-decoration-line: underline;
 }
 
-.m-8 {
-  margin: 2rem;
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .my-12 {
@@ -575,6 +576,10 @@ html {
 
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .flex {
@@ -710,11 +715,6 @@ html {
   padding-bottom: 0.5rem;
 }
 
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
 .pl-4 {
   padding-left: 1rem;
 }
@@ -821,7 +821,7 @@ html {
   }
 
   .laptop\:h-xlaptop {
-    height: 90vh;
+    height: 88vh;
   }
 
   .laptop\:max-h-logo {
@@ -861,8 +861,8 @@ html {
   }
 }
 
-@media (min-width: 1622px) {
+@media (min-width: 1920px) {
   .desktop\:h-xdesktop {
-    height: 93vh;
+    height: 92vh;
   }
 }
